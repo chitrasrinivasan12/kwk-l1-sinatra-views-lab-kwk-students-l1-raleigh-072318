@@ -1,8 +1,6 @@
 class App < Sinatra::Base
 
 	get '/goodbye' do
-		erb :index
+	  "Welcome to the Sinatra Views Lab"
 	end
-
-
 end
